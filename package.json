@@ -1,0 +1,25 @@
+{
+  "name": "event-booking-system",
+  "version": "1.0.0",
+  "description": "Event Booking System Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^7.5.1",
+    "joi": "^18.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "moment": "^2.30.1",
+    "mysql2": "^3.16.0",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
